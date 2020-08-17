@@ -5,8 +5,9 @@ on:
     branches:
       - master
 
-    paths-include:
+    paths:
     - '.devcontainer/Dockerfile'
+    - '.github/workflows/codespaces.yml'
 
 jobs:
 
