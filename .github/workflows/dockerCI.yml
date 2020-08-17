@@ -11,7 +11,7 @@ on:
     - 'src/**/__tests__'
     - '**.md'
     - 'TestFiles/**'
-    - '.github/workspaces/codespaces.yml' 
+    - '.github/workflows/codespaces.yml' 
 
   push:
     branches:
@@ -23,7 +23,7 @@ on:
     - 'src/**/__tests__'
     - '**.md'
     - 'TestFiles/**'
-    - '.github/workspaces/codespaces.yml' 
+    - '.github/workflows/codespaces.yml' 
 
     tags:
       - v*
